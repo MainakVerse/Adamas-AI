@@ -1,5 +1,5 @@
 xgboost
 sklearn
 pandas
-streamlit-lottie
 streamlit
+google-generativeai
