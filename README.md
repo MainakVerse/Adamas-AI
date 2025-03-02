@@ -1,1 +1,1 @@
-# Adamas-AI
+# Adamas AI
