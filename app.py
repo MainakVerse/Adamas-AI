@@ -209,7 +209,7 @@ st.markdown("""
 # Initialize Gemini API (hardcoded API key)
 # In a production environment, this should be stored securely using environment variables
 # or a secret management service
-GEMINI_API_KEY = "AIzaSyA2Os3xNPnMgclq1anF7ABx_Eo64OfJUP0"  # Replace with your actual API key
+GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]  # Replace with your actual API key
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Function to initialize and configure Gemini model
