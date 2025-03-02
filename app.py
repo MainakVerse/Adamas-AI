@@ -7,7 +7,7 @@ import os
 
 # Page configuration
 st.set_page_config(
-    page_title="DiamondGenius",
+    page_title="Admads AI",
     page_icon="💎",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -380,7 +380,7 @@ with st.sidebar:
     
     st.markdown("<div class='card animate-fade'>", unsafe_allow_html=True)
     st.markdown("### Developer Info")
-    st.write("Developed by Diamond Analytics Inc.")
+    st.write("Developed by Mainak 💙")
     st.write("© 2025 All Rights Reserved")
     st.markdown("</div>", unsafe_allow_html=True)
     
