@@ -216,7 +216,7 @@ genai.configure(api_key=GEMINI_API_KEY)
 @st.cache_resource
 def init_gemini_model():
     # Configure the generative model with diamond-specific context
-    model = genai.GenerativeModel('gemini-1.5-pro-latest')
+    model = genai.GenerativeModel('gemini-2.0-flash')
     return model
 
 # Loading up the Regression model
